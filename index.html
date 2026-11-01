@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Бассейн РСК им. Шералы Сыдыкова | Бишкек</title>
+  <meta name="description" content="Бассейн Республиканского спортивного колледжа им. Шералы Сыдыкова в Бишкеке. Занятия для детей и взрослых, групповые и персональные тренировки, самостоятельное плавание.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Бассейн РСК им. Шералы Сыдыкова">
+  <meta property="og:description" content="Тренировки для детей и взрослых в Бишкеке.">
+  <meta property="og:image" content="images/hero.jpg">
+
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; img-src 'self' data: https:; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self';">
+
+  <link rel="preload" as="image" href="images/hero.jpg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container header__inner">
+
+    <a href="#hero" class="logo" data-scroll aria-label="На главную">
+      <span class="logo__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+             stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 20c2 0 2.5-1.2 4.5-1.2S9.5 20 11.5 20s2.5-1.2 4.5-1.2 2.5 1.2 4.5 1.2"/>
+          <path d="M2 15.5c2 0 2.5-1.2 4.5-1.2M11.5 15.5c2 0 2.5-1.2 4.5-1.2M22 15c-2 0-2.5 1.2-4.5 1.2"/>
+          <circle cx="15.5" cy="4.5" r="2"/>
+          <path d="M13.5 7.5 8 10l-4.5 3.2"/>
+          <path d="m11 9 5.5 1.5 2 2"/>
+        </svg>
+      </span>
+
+      <span class="logo__text">
+        <strong data-i18n="logo_name">РСК им. Шералы Сыдыкова</strong>
+        <small data-i18n="logo_subtitle">Бассейн</small>
+      </span>
+    </a>
+
+    <nav class="nav" id="mainNav" aria-label="Основная навигация">
+      <ul class="nav__list">
+        <li><a href="#hero" class="nav__link is-active" data-scroll data-section="hero" data-i18n="nav_home">Главная</a></li>
+        <li><a href="#about" class="nav__link" data-scroll data-section="about" data-i18n="nav_about">О бассейне</a></li>
+        <li><a href="#prices" class="nav__link" data-scroll data-section="prices" data-i18n="nav_prices">Цены</a></li>
+        <li><a href="#formats" class="nav__link" data-scroll data-section="formats" data-i18n="nav_formats">Тренировки</a></li>
+        <li><a href="#gallery" class="nav__link" data-scroll data-section="gallery" data-i18n="nav_gallery">Галерея</a></li>
+        <li><a href="#reviews" class="nav__link" data-scroll data-section="reviews" data-i18n="nav_reviews">Отзывы</a></li>
+        <li><a href="#contacts" class="nav__link" data-scroll data-section="contacts" data-i18n="nav_contacts">Контакты</a></li>
+      </ul>
+
+      <a href="#contacts" class="btn btn--primary nav__cta" data-scroll data-i18n="btn_contact">Связаться</a>
+    </nav>
+
+    <div class="lang-switcher" aria-label="Выбор языка">
+      <button type="button" class="lang-btn is-active" data-lang="ru" aria-pressed="true">RU</button>
+      <button type="button" class="lang-btn" data-lang="ky" aria-pressed="false">KG</button>
+      <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+
+    <a href="#contacts" class="btn btn--primary header__cta" data-scroll data-i18n="btn_contact">Связаться</a>
+
+    <button type="button" class="burger" id="burger"
+            aria-label="Открыть меню"
+            aria-controls="mainNav"
+            aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div>
+</header>
+
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="hero" data-observe>
+    <div class="hero__bg" aria-hidden="true">
+      <img src="images/hero.jpg" class="hero__img" alt=""
+           width="1920" height="1080"
+           loading="eager" fetchpriority="high">
+      <div class="hero__overlay"></div>
+    </div>
+
+    <div class="container hero__content">
+      <p class="hero__location reveal" data-i18n="hero_location">Бишкек, Кыргызстан</p>
+
+      <h1 class="hero__title reveal" data-i18n="hero_title">
+        Плавание начинается здесь
+      </h1>
+
+      <p class="hero__subtitle reveal" data-i18n="hero_subtitle">
+        Бассейн Республиканского спортивного колледжа им. Шералы Сыдыкова
+      </p>
+
+      <p class="hero__desc reveal" data-i18n="hero_desc">
+        Тренировки для детей и взрослых, групповые и персональные занятия с тренером,
+        а также самостоятельное плавание.
+      </p>
+
+      <div class="hero__actions reveal">
+        <a href="#contacts" class="btn btn--primary btn--lg" data-scroll data-i18n="btn_contact">Связаться</a>
+        <a href="#prices" class="btn btn--glass btn--lg" data-scroll data-i18n="btn_prices">Посмотреть цены</a>
+      </div>
+
+      <ul class="hero__stats reveal">
+        <li class="stat">
+          <strong data-rating>4.8</strong>
+          <span data-i18n="stat_rating">рейтинг в 2ГИС</span>
+        </li>
+
+        <li class="stat">
+          <strong data-rating-count>205</strong>
+          <span data-i18n="stat_reviews">оценок</span>
+        </li>
+
+        <li class="stat">
+          <strong data-i18n="stat_ages">Дети и взрослые</strong>
+          <span data-i18n="stat_ages_desc">занятия для всех</span>
+        </li>
+
+        <li class="stat">
+          <strong data-i18n="stat_formats">С тренером / без</strong>
+          <span data-i18n="stat_formats_desc">разные форматы</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- ABOUT -->
+  <section class="section about" id="about" data-observe>
+    <div class="container about__grid">
+
+      <div class="about__media reveal">
+        <img src="images/building.jpg"
+             class="about__img"
+             alt="Здание Республиканского спортивного колледжа им. Шералы Сыдыкова"
+             data-i18n-alt="about_image_alt"
+             width="1000"
+             height="1250"
+             loading="lazy">
+      </div>
+
+      <div class="about__content">
+        <p class="section__eyebrow reveal" data-i18n="about_eyebrow">О бассейне</p>
+
+        <h2 class="section__title reveal" data-i18n="about_title">
+          Место для тренировок, прогресса и спорта
+        </h2>
+
+        <p class="about__text reveal" data-i18n="about_text">
+          Бассейн Республиканского спортивного колледжа им. Шералы Сыдыкова —
+          спортивный объект для тренировок, занятий с тренером и самостоятельного плавания.
+        </p>
+
+        <ul class="about__advantages reveal" id="advantagesList"></ul>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- PRICES -->
+  <section class="section section--tinted prices" id="prices" data-observe>
+    <div class="container">
+
+      <div class="section__head">
+        <p class="section__eyebrow reveal" data-i18n="prices_eyebrow">Цены</p>
+        <h2 class="section__title reveal" data-i18n="prices_title">Прозрачные тарифы</h2>
+        <p class="section__lead reveal" data-i18n="prices_lead">Выберите подходящий формат занятий.</p>
+      </div>
+
+      <div class="prices__tabs reveal" role="tablist" aria-label="Форматы занятий">
+        <button type="button"
+                class="price-tab is-active"
+                id="tab-without"
+                role="tab"
+                aria-selected="true"
+                aria-controls="panel-without"
+                tabindex="0"
+                data-price-tab="without"
+                data-i18n="tab_without">
+          Самостоятельно
+        </button>
+
+        <button type="button"
+                class="price-tab"
+                id="tab-with"
+                role="tab"
+                aria-selected="false"
+                aria-controls="panel-with"
+                tabindex="-1"
+                data-price-tab="with"
+                data-i18n="tab_with">
+          С тренером
+        </button>
+      </div>
+
+      <div id="panel-without"
+           class="prices__panel"
+           role="tabpanel"
+           aria-labelledby="tab-without">
+
+        <p class="prices__note" data-i18n="prices_note">
+          Самостоятельное плавание — строго с 14 лет
+        </p>
+
+        <div class="prices__groups" id="pricesWithout"></div>
+      </div>
+
+      <div id="panel-with"
+           class="prices__panel"
+           role="tabpanel"
+           aria-labelledby="tab-with"
+           hidden>
+        <div class="prices__groups" id="pricesWith"></div>
+      </div>
+
+      <p class="prices__footnote reveal" data-i18n="prices_footer">
+        Актуальную стоимость и условия уточняйте по телефону.
+      </p>
+
+    </div>
+  </section>
+
+
+  <!-- FORMATS -->
+  <section class="section formats" id="formats" data-observe>
+    <div class="container">
+
+      <div class="section__head">
+        <p class="section__eyebrow reveal" data-i18n="formats_eyebrow">Форматы тренировок</p>
+        <h2 class="section__title reveal" data-i18n="formats_title">Как можно заниматься</h2>
+      </div>
+
+      <div class="formats__grid">
+
+        <article class="format-card reveal">
+          <span class="format-card__number">01</span>
+          <h3 data-i18n="format_1_title">Самостоятельное плавание</h3>
+          <p data-i18n="format_1_text">Для посетителей от 14 лет, которые хотят тренироваться самостоятельно.</p>
+          <a href="#prices" class="btn btn--outline" data-scroll data-open-tab="without" data-i18n="btn_prices">Посмотреть цены</a>
+        </article>
+
+        <article class="format-card reveal">
+          <span class="format-card__number">02</span>
+          <h3 data-i18n="format_2_title">Групповые занятия</h3>
+          <p data-i18n="format_2_text">Тренировки в группе под руководством тренера.</p>
+          <a href="#prices" class="btn btn--outline" data-scroll data-open-tab="with" data-i18n="btn_prices">Посмотреть цены</a>
+        </article>
+
+        <article class="format-card reveal">
+          <span class="format-card__number">03</span>
+          <h3 data-i18n="format_3_title">Персональные занятия</h3>
+          <p data-i18n="format_3_text">Индивидуальная работа с тренером с акцентом на технику.</p>
+          <a href="#contacts" class="btn btn--outline" data-scroll data-i18n="btn_contact">Связаться</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- WHY -->
+  <section class="section section--tinted why" id="why">
+    <div class="container">
+
+      <div class="section__head">
+        <p class="section__eyebrow reveal" data-i18n="why_eyebrow">Преимущества</p>
+        <h2 class="section__title reveal" data-i18n="why_title">Почему выбирают нас</h2>
+      </div>
+
+      <div class="why__grid" id="whyGrid"></div>
+
+    </div>
+  </section>
+
+
+  <!-- GALLERY -->
+  <section class="section gallery" id="gallery" data-observe>
+    <div class="container">
+
+      <div class="section__head">
+        <p class="section__eyebrow reveal" data-i18n="gallery_eyebrow">Галерея</p>
+        <h2 class="section__title reveal" data-i18n="gallery_title">Наш бассейн</h2>
+        <p class="section__lead reveal" data-i18n="gallery_lead">Посмотрите, где проходят тренировки</p>
+      </div>
+
+      <div class="gallery__grid" id="galleryGrid"></div>
+
+    </div>
+  </section>
+
+
+  <!-- REVIEWS -->
+  <section class="section section--tinted reviews" id="reviews" data-observe>
+    <div class="container">
+
+      <div class="section__head">
+        <p class="section__eyebrow reveal" data-i18n="reviews_eyebrow">Отзывы</p>
+        <h2 class="section__title reveal" data-i18n="reviews_title">Что говорят посетители</h2>
+        <p class="section__lead reveal" data-i18n="reviews_lead">Рейтинг посетителей в 2ГИС</p>
+      </div>
+
+      <div class="rating-card reveal">
+
+        <div class="rating-card__score">
+          <strong data-rating>4.8</strong>
+          <span class="rating-card__stars" data-rating-stars aria-label="Рейтинг 4.8 из 5">★★★★★</span>
+        </div>
+
+        <div class="rating-card__info">
+          <strong>
+            <span data-rating-count>205</span>
+            <span data-i18n="reviews_count">оценок</span>
+          </strong>
+          <span data-i18n="reviews_note">По данным 2ГИС</span>
+        </div>
+
+        <a href="https://2gis.kg/bishkek/firm/70000001115038326/74.668406%2C42.878568/tab/reviews"
+           class="btn btn--primary"
+           target="_blank"
+           rel="noopener noreferrer"
+           data-i18n="reviews_btn">
+          Посмотреть отзывы в 2ГИС
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="cta__bg" aria-hidden="true">
+      <img src="images/hero.jpg" class="cta__img" alt="" loading="lazy">
+      <div class="cta__overlay"></div>
+    </div>
+
+    <div class="container cta__content">
+      <h2 class="cta__title reveal" data-i18n="cta_title">Готовы выйти на дорожку?</h2>
+
+      <p class="cta__desc reveal" data-i18n="cta_desc">
+        Узнайте актуальное расписание и доступные группы по телефону или в Instagram.
+      </p>
+
+      <div class="cta__actions reveal">
+        <a href="tel:+996507442553" class="btn btn--primary btn--lg" data-phone-link data-i18n="btn_call">Позвонить</a>
+
+        <a href="https://www.instagram.com/pool_rsk"
+           class="btn btn--glass btn--lg"
+           target="_blank"
+           rel="noopener noreferrer"
+           data-instagram-link>
+          Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CONTACTS -->
+  <section class="section contacts" id="contacts" data-observe>
+    <div class="container contacts__grid">
+
+      <div class="contacts__intro">
+        <p class="section__eyebrow reveal" data-i18n="contacts_eyebrow">Контакты</p>
+
+        <h2 class="section__title reveal" data-i18n="contacts_title">
+          Свяжитесь с нами
+        </h2>
+
+        <p class="contacts__text reveal" data-i18n="contacts_text">
+          Расписание, свободные места и условия занятий можно уточнить напрямую.
+        </p>
+
+        <address class="contacts__address reveal" data-i18n="contacts_address">
+          Бишкек, ул. Кольбаева, 33
+        </address>
+      </div>
+
+
+      <div class="contact-panel reveal">
+
+        <article class="contact-item">
+          <div class="contact-item__body">
+            <span class="contact-item__label" data-i18n="contacts_phone">Телефон</span>
+            <a href="tel:+996507442553" class="contact-item__value" data-phone-link data-phone>
+              +996 507 44 25 53
+            </a>
+          </div>
+
+          <a href="tel:+996507442553" class="btn btn--primary" data-phone-link data-i18n="btn_call">
+            Позвонить
+          </a>
+        </article>
+
+
+        <article class="contact-item">
+          <div class="contact-item__body">
+            <span class="contact-item__label">Instagram</span>
+
+            <a href="https://www.instagram.com/pool_rsk"
+               class="contact-item__value"
+               target="_blank"
+               rel="noopener noreferrer"
+               data-instagram-link
+               data-instagram-name>
+              @pool_rsk
+            </a>
+          </div>
+
+          <a href="https://www.instagram.com/pool_rsk"
+             class="btn btn--outline"
+             target="_blank"
+             rel="noopener noreferrer"
+             data-instagram-link
+             data-i18n="contacts_inst_btn">
+            Написать
+          </a>
+        </article>
+
+
+        <article class="contact-item">
+          <div class="contact-item__body">
+            <span class="contact-item__label" data-i18n="contacts_map">Карта</span>
+            <span class="contact-item__value" data-i18n="contacts_map_text">Посмотреть расположение</span>
+          </div>
+
+          <a href="https://2gis.kg/bishkek/firm/70000001115038326/74.668406%2C42.878568"
+             class="btn btn--outline"
+             target="_blank"
+             rel="noopener noreferrer"
+             data-i18n="contacts_map_btn">
+            Открыть в 2ГИС
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__grid">
+
+    <div class="footer__brand">
+      <strong data-i18n="footer_name">Республиканский спортивный колледж им. Шералы Сыдыкова</strong>
+      <p data-i18n="footer_text">Бассейн для тренировок, занятий с тренером и самостоятельного плавания.</p>
+    </div>
+
+    <nav class="footer__nav" aria-label="Навигация в подвале">
+      <strong data-i18n="footer_navigation">Навигация</strong>
+      <a href="#about" data-scroll data-i18n="nav_about">О бассейне</a>
+      <a href="#prices" data-scroll data-i18n="nav_prices">Цены</a>
+      <a href="#gallery" data-scroll data-i18n="nav_gallery">Галерея</a>
+      <a href="#contacts" data-scroll data-i18n="nav_contacts">Контакты</a>
+    </nav>
+
+    <div class="footer__contacts">
+      <strong data-i18n="footer_contacts">Контакты</strong>
+      <a href="tel:+996507442553" data-phone-link data-phone>+996 507 44 25 53</a>
+
+      <a href="https://www.instagram.com/pool_rsk"
+         target="_blank"
+         rel="noopener noreferrer"
+         data-instagram-link
+         data-instagram-name>
+        @pool_rsk
+      </a>
+
+      <span data-i18n="contacts_address">Бишкек, ул. Кольбаева, 33</span>
+    </div>
+
+  </div>
+
+  <div class="container footer__bottom">
+    <p>
+      © <span id="currentYear">2026</span>
+      <span data-i18n="footer_short">РСК им. Шералы Сыдыкова</span>.
+      <span data-i18n="footer_rights">Все права защищены.</span>
+    </p>
+
+    <a href="#hero" data-scroll data-i18n="footer_top">Наверх ↑</a>
+  </div>
+</footer>
+
+
+<!-- LIGHTBOX -->
+<dialog class="lightbox" id="lightbox" aria-labelledby="lightboxCaption">
+  <div class="lightbox__inner">
+
+    <button type="button" class="lightbox__close"
+            data-lightbox-close
+            aria-label="Закрыть">
+      ×
+    </button>
+
+    <button type="button"
+            class="lightbox__arrow lightbox__arrow--prev"
+            data-lightbox-prev
+            aria-label="Предыдущее фото">
+      ‹
+    </button>
+
+    <figure class="lightbox__figure">
+      <img src="" class="lightbox__img" id="lightboxImg" alt="">
+      <figcaption class="lightbox__caption" id="lightboxCaption"></figcaption>
+    </figure>
+
+    <button type="button"
+            class="lightbox__arrow lightbox__arrow--next"
+            data-lightbox-next
+            aria-label="Следующее фото">
+      ›
+    </button>
+
+  </div>
+</dialog>
+
+
+<noscript>
+  <p class="noscript">
+    Для переключения языка и интерактивной галереи необходимо включить JavaScript.
+  </p>
+</noscript>
+
+<script src="js/script.js" defer></script>
+
+</body>
+</html>
